@@ -3,7 +3,6 @@ const router = express.Router();
 const Employee = require('../models/Employee');
 
 router.get('/', (req, res, next) => {
-  // let query = { age: &gth82 }
   Employee
     .find({ 'image': /^https/ })
     .then(allEmployees => res.json(allEmployees))
