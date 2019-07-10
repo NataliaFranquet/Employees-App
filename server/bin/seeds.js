@@ -31,8 +31,6 @@ Employee.deleteMany()
         data.forEach(employee => {
           let { name, age, image, bio } = employee;
           console.log(employee.image)
-          // if(employee.image.includes('https'))
-          // {
             mediasmartEmployee = new Employee({ name, age, image, bio })
               .save()
               .then(() => {
@@ -43,8 +41,6 @@ Employee.deleteMany()
                 mongoose.disconnect()
                 throw err
               });
-            // }
-        
         });
       })
       .catch(err => console.log(err));
