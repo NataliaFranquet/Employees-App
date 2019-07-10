@@ -9,7 +9,7 @@ LOCAL_MONGO=mongodb://localhost/mediasmart
 URL=http://work.mediasmart.io
 PAGE=0
 PAGE_SIZE=2000
-PASSWORD=
+PASSWORD=mediasmart2019
 ENV=development
 ```
 ### Run app on your local machine
