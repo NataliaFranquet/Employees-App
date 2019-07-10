@@ -1,0 +1,24 @@
+.board {
+  margin: 20px;
+}
+
+.short-title {
+  margin: 25px;
+}
+
+.short-title h5 {
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+.empl-name {
+  margin-top: 10px;
+  text-align: left;
+  color: black;
+}
+
+.empl-age {
+  text-align: left;
+  color: rgb(0,0,0, 0.8)
+}

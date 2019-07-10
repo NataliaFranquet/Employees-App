@@ -1,0 +1,71 @@
+.container {
+  text-align: center;
+}
+
+.box {
+  display: inline-block;
+  border: 0.2px solid gray;
+  max-width: 40%;
+  flex-direction: column;
+  padding: 15px;
+  margin: 20px;
+}
+
+.img {
+  margin-bottom: 10px;
+}
+
+.box-info {
+  text-align: left;
+}
+
+.info {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+span {
+  font-size: 20px;
+  font-weight: normal;
+}
+
+.bio-container {
+  display: inline-block;
+  text-align: left;
+}
+
+.bio-container p {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.bio-container button {
+  margin-bottom: 13px;
+  background-color: Transparent;
+  background-repeat:no-repeat;
+  border: none;
+  cursor:pointer;
+  overflow: hidden;
+  outline:none;
+  color: rgb(71,125,197);
+  font-weight: bold;
+}
+
+.bio-container span {
+  justify-content: flex-start;
+  text-align: justify;
+}
+
+.bio {
+  display: flex;
+  align-items: center;
+  text-align: left;
+  justify-content: flex-start;
+}
+
+.return-link {
+  text-align: right;
+}
