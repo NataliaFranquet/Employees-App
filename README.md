@@ -16,8 +16,7 @@ ENV=development
 1. Go to server directory and install the dependencies: `npm i`
 2. Run the server: `npm run dev` if you are on Ubuntu/MacOS or `npm run dev-windows` if you are on Windows
 3. The server is listening on `http://localhost:5000`
-4. Run the `seeds.js` file to fill the database in MongoDb: on the terminal go to server directory and run
-`node bin/seeds.js`
+4. Run the `seeds.js` file to fill the database in MongoDb: on the terminal go to server directory and run `node bin/seeds.js`
 5. On another terminal go to client directory and install the dependencies: `npm i`
 6. Run the client: `npm start`.
 7. The client is listening on port 3000: `http://localhost:3000`
